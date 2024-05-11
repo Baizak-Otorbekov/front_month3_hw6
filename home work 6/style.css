@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./image/картинка-Чувак-С-днем-рождения-27.jpg');
+    background-size: cover;
+}
+
+.wrapper {
+    width: 550px;
+    margin: 350px auto;
+
+}
+
+.wrapper-row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.wrapper-item {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.wrapper-item h1 {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.wrapper-item span {
+    font-size: 24px;
+}
+
+.wrapper-title {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
